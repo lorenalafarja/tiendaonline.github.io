@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda Simple</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #495057;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contenedor {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .producto {
+            background-color: white;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .producto img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .producto-info {
+            flex: 1;
+        }
+
+        .producto-info h3 {
+            margin: 0 0 10px 0;
+            color: #343a40;
+        }
+
+        .producto-info p {
+            margin: 0 0 10px;
+        }
+
+        .precio {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tienda Online Simple</h1>
+        <p>Productos destacados para vos</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="contenedor">
+        <div class="producto">
+            <img src="https://via.placeholder.com/150" alt="Producto 1">
+            <div class="producto-info">
+                <h3>Smartwatch Deportivo</h3>
+                <p>Resistente al agua, notificaciones, control de ritmo cardíaco.</p>
+                <p class="precio">Gs. 250.000</p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/150" alt="Producto 2">
+            <div class="producto-info">
+                <h3>Auriculares Bluetooth</h3>
+                <p>Calidad HD, cancelación de ruido, hasta 8 horas de uso.</p>
+                <p class="precio">Gs. 180.000</p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/150" alt="Producto 3">
+            <div class="producto-info">
+                <h3>Mochila Urbana</h3>
+                <p>Espaciosa, diseño moderno, resistente al agua.</p>
+                <p class="precio">Gs. 120.000</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Tienda Simple| Email: contacto@tiendasimple.com
+    </footer>
+
+</body>
+
+</html>
